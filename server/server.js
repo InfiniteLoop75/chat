@@ -7,7 +7,7 @@ const {isRealString} = require('./utils/validation');
 const {Users} = require('./utils/users');
 const server = express();
 
-const publicPath = path.join(__dirname, '../public');
+const publicPath = path.join(g, '../public');
 const port = process.env.PORT || 3000;
 
 
